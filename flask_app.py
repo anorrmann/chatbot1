@@ -27,9 +27,9 @@ Sobald ein Name und persönliches Detail bekannt ist, zeige eine Liste von Optio
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
-    type_id="coach",
-    user_id="daniel",
-    type_name="Health Coach",
+    type_id="chatbot1",
+    user_id="chatbot1",
+    type_name="Coaching with Coach",
     type_role=my_type_role,
     instance_context=my_instance_context,
     instance_starter=my_instance_starter
